@@ -1,0 +1,3 @@
+[submodule "perception-in-robotics-2025"]
+	path = perception-in-robotics-2025
+	url = git@github.com:g-ferrer/perception-in-robotics-2025.git
