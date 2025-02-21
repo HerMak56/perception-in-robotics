@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug EKF",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "--animate", 
+                "-s", 
+                "-f", "pf", 
+                "-i", "evaluation-input.npy", 
+                "-o", "out"
+            ]
+        }
+    ]
+}
